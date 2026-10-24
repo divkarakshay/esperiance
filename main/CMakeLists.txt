@@ -1,0 +1,26 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "display.c"
+        "input.c"
+        "buzzer.c"
+        "menu.c"
+        "games.c"
+        "game_snake.c"
+        "game_pong.c"
+        "game_breakout.c"
+        "game_space.c"
+        "game_pairs.c"
+        "game_bantumi.c"
+        "game_connect4.c"
+        "game_mines.c"
+        "game_raindrops.c"
+        "game_bounce.c"
+        "game_snake2.c"
+        "game_tictactoe.c"
+        "game_tetris.c"
+        "game_munkiki.c"
+        "game_blocbloc.c"
+        "game_flan.c"
+    INCLUDE_DIRS
+        ".")

@@ -1,0 +1,17 @@
+# Esperiance - ESP32 retro game console
+# Target: ESP32 (DevKitC v4)
+
+CONFIG_IDF_TARGET="esp32"
+
+# 4MB flash (matches the DevKitC module)
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Give app_main room for games and menu state
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+
+# Console output
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# Speed up freeRTOS tick for smoother input sampling
+CONFIG_FREERTOS_HZ=1000

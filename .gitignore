@@ -1,0 +1,7 @@
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.esp32
+managed_components/
+.dependencies/
+.DS_Store
